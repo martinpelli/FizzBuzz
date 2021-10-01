@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marti\\source\\repos\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marti\\source\\repos\\FizzBuzz\\ClassLibrary1\\FizzBuzzKata.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\ClassLibrary1\\FizzBuzzKata.csproj",
+        "projectName": "FizzBuzzKata",
+        "projectPath": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\ClassLibrary1\\FizzBuzzKata.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\marti\\source\\repos\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+        "projectName": "FizzBuzzTest",
+        "projectPath": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\FizzBuzz\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\marti\\source\\repos\\FizzBuzz\\ClassLibrary1\\FizzBuzzKata.csproj": {
+                "projectPath": "C:\\Users\\marti\\source\\repos\\FizzBuzz\\ClassLibrary1\\FizzBuzzKata.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
